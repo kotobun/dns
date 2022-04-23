@@ -1,0 +1,9 @@
+zone "lab" IN {
+	type master;
+	file "/etc/bind/zones/lab.zone";
+};
+
+zone "16.0.10.in-addr.arpa" IN	{
+	type master;
+	file "/etc/bind/zones/16.0.10.in-addr.arpa.zone";
+};
